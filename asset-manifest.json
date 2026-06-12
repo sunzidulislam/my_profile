@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my_profile/static/css/main.82c00dae.css",
+    "main.js": "/my_profile/static/js/main.6fdbbdd0.js",
+    "static/js/453.676b9ed8.chunk.js": "/my_profile/static/js/453.676b9ed8.chunk.js",
+    "static/media/project5.png": "/my_profile/static/media/project5.c22d4be2eabbaba8ac82.png",
+    "static/media/project2.png": "/my_profile/static/media/project2.36f874d1a43bc9b5ebba.png",
+    "static/media/project1.png": "/my_profile/static/media/project1.99f661ecfa253e444b18.png",
+    "static/media/color-sharp.png": "/my_profile/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/project3.png": "/my_profile/static/media/project3.f72112ce103f287e9dd0.png",
+    "static/media/color-sharp2.png": "/my_profile/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project4.png": "/my_profile/static/media/project4.a53b61215b5506f2e3ea.png",
+    "static/media/profile-pic.png": "/my_profile/static/media/profile-pic.d66cddc3040349172b64.png",
+    "static/media/banner-bg.png": "/my_profile/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/CentraNo2-Bold.ttf": "/my_profile/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my_profile/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/my_profile/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/my_profile/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/my_profile/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/nav-icon3.svg": "/my_profile/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/icons8-github.svg": "/my_profile/static/media/icons8-github.b79f3121bd1b411911cb223c47132368.svg",
+    "index.html": "/my_profile/index.html",
+    "static/media/nav-icon1.svg": "/my_profile/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/my_profile/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.82c00dae.css.map": "/my_profile/static/css/main.82c00dae.css.map",
+    "main.6fdbbdd0.js.map": "/my_profile/static/js/main.6fdbbdd0.js.map",
+    "453.676b9ed8.chunk.js.map": "/my_profile/static/js/453.676b9ed8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c00dae.css",
+    "static/js/main.6fdbbdd0.js"
+  ]
+}
