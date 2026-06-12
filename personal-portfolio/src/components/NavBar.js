@@ -3,7 +3,6 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon4 from "../assets/img/icons8-github.svg";
-import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -52,64 +51,100 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-                href=" home"
                 className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("home")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("home")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("home");
+                }}
               >
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#summary"
                 className={
                   activeLink === "summary"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("summary")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("summary")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("summary");
+                }}
               >
                 About
               </Nav.Link>
               <Nav.Link
-                href="#skills"
                 className={
                   activeLink === "skills" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("skills")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("skills")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("skills");
+                }}
               >
                 Skills
               </Nav.Link>
               <Nav.Link
-                href="#experience"
                 className={
                   activeLink === "experience"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("experience")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("experience")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("experience");
+                }}
               >
                 Experience
               </Nav.Link>
               <Nav.Link
-                href="#publications"
                 className={
                   activeLink === "publications"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("publications")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("publications")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("publications");
+                }}
               >
                 Publications
               </Nav.Link>
               <Nav.Link
-                href="#projects"
                 className={
                   activeLink === "projects"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("projects")}
+                style={{ cursor: "pointer" }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("projects")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                  onUpdateActiveLink("projects");
+                }}
               >
                 Projects
               </Nav.Link>

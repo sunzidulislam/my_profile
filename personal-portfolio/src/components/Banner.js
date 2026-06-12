@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import profileImg from "../assets/img/profile-pic.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -12,8 +12,9 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  // Removed unused index state
-  const toRotate = ["Web Developer", "Software Engineer", "UI/UX Designer"];
+  const [index, setIndex] = useState(1);
+  const isAnimated = false; // Toggle this to true/false to enable/disable floating animation
+  const toRotate = ["Data Engineer", "Software Engineer", "Data Scientist"];
   const period = 2000;
 
   useEffect(() => {
@@ -102,7 +103,24 @@ export const Banner = () => {
                       isVisible ? "animate__animated animate__zoomIn" : ""
                     }
                   >
-                    <img src={headerImg} alt="Header Illustration" />
+                    <img
+                      src={profileImg}
+                      alt="Sunzidul Islam"
+                      style={{
+                        borderRadius: "50%",
+                        width: "100%",
+                        maxWidth: "400px",
+                        aspectRatio: "1/1",
+                        objectFit: "cover",
+                        border: "5px solid #AA367C",
+                        boxShadow: "0 0 30px rgba(170, 54, 124, 0.5)",
+                        display: "block",
+                        margin: "0 auto",
+                        animation: isAnimated
+                          ? "profileFloat 4s ease-in-out infinite"
+                          : "none",
+                      }}
+                    />
                   </div>
                 )}
               </TrackVisibility>

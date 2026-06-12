@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubUrl }) => {
         style={{ color: "inherit", textDecoration: "none" }}
       >
         <div className="proj-imgbx" style={{ cursor: "pointer" }}>
-          <img src={imgUrl} />
+          <img src={imgUrl} alt={title || "Project Image"} />
           <div className="proj-txtx">
             <h4>{title}</h4>
             <span>{description}</span>
