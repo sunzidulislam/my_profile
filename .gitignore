@@ -165,3 +165,7 @@ cython_debug/
 
 # Mac OS
 .DS_Store
+
+# Custom Ignore
+personal-portfolio/node_modules
+node_modules
